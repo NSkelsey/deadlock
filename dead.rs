@@ -1,4 +1,5 @@
-//please compile using rust 0.7 not sure if .8 will work
+// When run this program immediately deadlocks itself using streams!
+// NOTE: please compile using rust 0.7 it is untested with 0.8
 use std::task::spawn;
 use std::pipes::{stream, Port, Chan};
 
