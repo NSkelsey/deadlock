@@ -1,4 +1,4 @@
-# please compile using rust 0.7 not sure if .8 will work
+//please compile using rust 0.7 not sure if .8 will work
 use std::task::spawn;
 use std::pipes::{stream, Port, Chan};
 
